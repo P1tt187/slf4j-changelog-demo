@@ -3,17 +3,10 @@
   "extends": [
     "local>P1tt187/renovate-config"
   ],
-  "packageRules": [
-    {
-      "changelogUrl": "https://github.com/P1tt187/slf4j-changelog-generator",
-      "matchPackageNames": [
-        "/^org\\.slf4j/"
-      ],
-      "extractVersion": "(?<version>\\d+(?:\\.\\d+)+)"
-    },
+  "packageRules": [    
     {
       "matchDepNames": [
-        "^org\\.slf4j"
+        "org.slf4j:slf4j-api"
       ],
       "changelogUrl": "https://github.com/P1tt187/slf4j-changelog-generator",
       "extractVersion": "(?<version>\\d+(?:\\.\\d+)+)"
