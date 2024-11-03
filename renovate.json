@@ -4,7 +4,7 @@
     "local>P1tt187/renovate-config"
   ],
   "packageRules": [{
-    "matchPackageNames":["/^org\\.slf4j/g"],
+    "matchDepNames":["/^org\\.slf4j/g"],
     "changelogUrl": "https://github.com/P1tt187/slf4j-changelog-generator"
   }]
 }
