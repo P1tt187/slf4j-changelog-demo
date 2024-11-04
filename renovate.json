@@ -8,8 +8,7 @@
       "matchDepNames": [
         "/^org\\.slf4j/"
       ],
-      "sourceUrl": "https://github.com/P1tt187/slf4j-changelog-generator",
-      "extractVersion": "(?<version>\\d+(?:\\.\\d+)+)"
+      "sourceUrl": "https://github.com/P1tt187/slf4j-changelog-generator"
     }
   ]
 }
