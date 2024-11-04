@@ -3,12 +3,18 @@
   "extends": [
     "local>P1tt187/renovate-config"
   ],
-  "packageRules": [    
+  "packageRules": [
     {
       "matchDepNames": [
         "/^org\\.slf4j/"
       ],
       "sourceUrl": "https://github.com/P1tt187/slf4j-changelog-generator"
+    },
+    {
+      "matchDepNames": [
+        "/^ch\\.qos\\.logback/"
+      ],
+      "sourceUrl": "https://github.com/P1tt187/logback-changelog-generator"
     }
   ]
 }
