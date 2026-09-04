@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.slf4j:slf4j-api:2.0.17")
+    implementation("org.slf4j:slf4j-api:2.0.19")
 
     // Use JUnit Jupiter for testing.
     testImplementation(libs.junit.jupiter)
